@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Creates a variable named "name" and sets it to the value of string 'Dane'.
+// Checks if the value of "name" is strictly equal (must be same type and value) to the string 'Mary'.
+// 'Dane' is not strictly equal to 'Mary' so the console logs 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Creates a variable "secret" with an unnasiged value which is by default assigned the value of undefined.
+// Creates a variable "code" and assigns it with the numerical value of 123.
+// Checks if the value of code is strictly equal to 123. 
+// If so assigns the variable secret with the value of string 'super' and doubles the value of code.
+// Code is 123, so the value of secret is now string 'super' and the value of code is now 246.
+// If code is greater than 250 secret is assigned a new string value of 'duper' overwriting 'super'
+// Code is only 246 and is NOT greater than 250 so the value of secret is still 'super'.
+// The console logs its string value 'super'.
 
 //CODE
 /*
@@ -70,10 +74,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Creates variables isStudent, age, and zip with respective values boolean true, numerical 34, and numerical 55407
+// Checks if both isStudent and if zip > 80,000 and if so console logs "You're a student on the west coast"
+// If either of above conditional is not met, checks if isStudent is false or if the age is under 30 and if so console logs "What are your hobbies".
+// If both above conditionals are not met, checks if isStudent is true and if so console logs "Welcome to Prime!"
+// If above conditional is not met console logs "How about the weather?"
+
+// In this case, 55407 is NOT greater than 80,000 and so code is not executed and the next conditional is checked.
+// Next, both the isStudent is NOT false AND the age is > 34 so the code is not executed and the next conditional is checked.
+// Finally, isStudent is true and the console logs "Welcome to Prime!"
 
 //CODE
 /*
