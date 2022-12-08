@@ -138,6 +138,8 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//FIX - colorOne and colorTwo are set to the wrong colors and should be swapped. colorOne = 'blue'; & colorTwo = 'red';
+//Only colorOne is updated to 'purple' in the conditional statement. The conditional brackets should have another line with colorTwo = 'purple';
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -152,6 +154,9 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
+//FIX the conditional is intended to check that both temp>39 AND time>=4 must be true, but is using the logical OR || which is the incorrect functionality. 
+//The conditional should use the logical and && statement. e.g if (temp > 39 && time >= 4) {}
 /*
 let temp = 40;
 const time = 4;
@@ -164,6 +169,13 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//FIX the conditional checking minage should not check <= it should only check <. 
+//We are also not instructed to console.log 'No entry' so this part should be dropped. and the conditional should be simplified.
+// if (age >= minAge) {
+//  console.log('enter');
+//}
+
 
 /*
 let age = 21;
