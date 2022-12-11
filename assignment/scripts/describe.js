@@ -76,13 +76,13 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // Creates variables isStudent, age, and zip with respective values boolean true, numerical 34, and numerical 55407
 // Checks if both isStudent and if zip > 80,000 and if so console logs "You're a student on the west coast"
-// If either of above conditional is not met, checks if isStudent is false or if the age is under 30 and if so console logs "What are your hobbies".
+// If either of above conditional is not met, checks if isStudent is false or if the age is under 30 and if so console logs "What are your hobbies?".
 // If both above conditionals are not met, checks if isStudent is true and if so console logs "Welcome to Prime!"
 // If above conditional is not met console logs "How about the weather?"
 
 // In this case, 55407 is NOT greater than 80,000 and so code is not executed and the next conditional is checked.
 // Next, both the isStudent is NOT false AND the age is > 34 so the code is not executed and the next conditional is checked.
-// Finally, isStudent is true and the console logs "Welcome to Prime!"
+// Finally, isStudent is true and the console logs "Welcome to Prime!" and returns/breaks out of the if else chain.
 
 //CODE
 /*
@@ -139,7 +139,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 //FIX - colorOne and colorTwo are set to the wrong colors and should be swapped. colorOne = 'blue'; & colorTwo = 'red';
-//Only colorOne is updated to 'purple' in the conditional statement. The conditional brackets should have another line with colorTwo = 'purple';
+//Only colorOne is updated to 'purple' in the conditional statement. The executed code between the conditional brackets should have another line with colorTwo = 'purple';
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -170,8 +170,8 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
-//FIX the conditional checking minage should not check <= it should only check <. 
-//We are also not instructed to console.log 'No entry' so this part should be dropped. and the conditional should be simplified.
+//FIX the conditional checking minAge should not check <= it should only check <. 
+//We are also not instructed to console.log 'No entry' so this part should be dropped. and the conditional should be simplified to not include an else.
 // if (age >= minAge) {
 //  console.log('enter');
 //}
